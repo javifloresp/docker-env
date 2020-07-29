@@ -1,11 +1,11 @@
 
 # Servicios 
 
-Aqui se indican los pasos a seguir para el funcionamiento del proyecto **Crowdfunding**
+Aqui se indican los pasos a seguir para el funcionamiento del proyecto.
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas en **Crowdfunding**._
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 
 
@@ -19,7 +19,7 @@ Es requerido contar con **docker** ,**docker-compose** y **make**.
 Primero es necesario descargar nuestro repositorio de la siguente manera
 
 ```
-git clone git@github.com:AgileSoftMX/infrastructure.git
+git clone git@github.com:javifloresp/docker-env.git
 ```
 
 ## Entorno Local ⚙️
@@ -90,13 +90,13 @@ La siguiente pregunta sera acerca de nuestro directorio raiz , es importante men
 ```
 What is the root path? : /var/ww
 ```
-En esta pregunta indicaremos los dominios alojados en nuestro entorno para beta indicamos **web.cf.agilesoft.mx,manager.cf.agilesoft.mx,dashboard.cf.agilesoft.mx** , es importante mencionar que los dominios debe ir separados por **,** :
+En esta pregunta indicaremos los dominios alojados en nuestro entorno para beta indicamos **web.dominio.com,manager.dominio.com,dashboard.dominio.com** , es importante mencionar que los dominios debe ir separados por **,** :
 ```
-What domains do you want to add? (ex: domain.com , sub.domain.com) : web.cf.agilesoft.mx,manager.cf.agilesoft.mx,dashboard.cf.agilesoft.mx
+What domains do you want to add? (ex: domain.com , sub.domain.com) : web.dominio.com,manager.dominio.com,dashboard.dominio.com
 ```
-Y por ultimo indicamos el dominio que tendra nuestro dashboard de gestion en este caso sera **dashboard.cf.agilesoft.mx** :
+Y por ultimo indicamos el dominio que tendra nuestro dashboard de gestion en este caso sera **dashboard.dominio.com** :
 ```
-What is the name of the dashboard? (ex: dashboard.domain.com ) : dashboard.cf.agilesoft.mx
+What is the name of the dashboard? (ex: dashboard.domain.com ) : dashboard.dominio.com
 ```
 
 Finalizando este proceso ya estaria listo nuestro entorono.
